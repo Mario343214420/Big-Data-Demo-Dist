@@ -1,0 +1,122 @@
+<!--工具网站http://geojson.io/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="./vue.min.js"></script>
+  <script src="./echarts.min.js"></script>
+  <script src="./xuzhou_area.js"></script>
+</head>
+<body>
+<div id="app" style="width: 1000px; height: 800px;">
+  <div ref="c" style="width: 100%; height: 100%; border: 1px solid #000;"></div>
+  <img ref="i" src="./c_bg.png" alt="">
+</div>
+<script>
+  new Vue({
+    el: '#app',
+    mounted() {
+    	this.init()
+    },
+    methods: {
+	    getImage (img) {
+		    return new Promise(resolve => {
+			    const image = new Image()
+			    image.src = img
+			    image.onload = () => {
+				    const canvas = document.createElement(`canvas`)
+				    canvas.width = image.width
+				    canvas.height = image.height
+				    const ctx = canvas.getContext(`2d`)
+				    const x = canvas.width / 2
+				    const y = canvas.height / 2
+				    // 将绘图原点移到画布中心
+				    ctx.translate(x, y)
+				    // 旋转角度
+				    ctx.rotate((Math.PI / 180) * (Math.floor(Math.random() * 6) * 10))
+				    // 将画布原点移动
+				    ctx.translate(-x, -y)
+				    // 绘制图片
+				    ctx.drawImage(image, 0, 0, image.width, image.height)
+				    const ext = image.src.substring(image.src.lastIndexOf(`.`) + 1).toLowerCase()
+				    const dataURL = canvas.toDataURL(`image/` + ext)
+				    // console.log(dataURL)
+				    // resolve(`image://` + dataURL)
+				    resolve(image)
+			    }
+		    })
+	    },
+    	init(){
+		    var myChart = echarts.init(this.$refs.c);
+		    // 指定图表的配置项和数据
+		    var option = {
+			    geo: {
+				    map: "xuzhou",
+				    roam: true,
+            tooltip: {
+              show: true
+
+            },
+				    itemStyle: {
+					    normal: {
+						    color: {
+							    image: this.$refs.i, // 支持为 HTMLImageElement, HTMLCanvasElement，不支持路径字符串
+							    repeat: 'repeat' // 是否平铺，可以是 'repeat-x', 'repeat-y', 'no-repeat'
+						    },
+						    areaColor: "#013C62",
+						    shadowColor:"#01273F",
+						    shadowOffsetX:-10,
+						    shadowOffsetY:25
+					    },
+					    emphasis: {
+						    label:{
+							    show:true
+						    }
+					    }
+				    }
+			    },
+			    series: [
+				    {
+					    type: "map",
+					    map: "xuzhou",
+					    geoIndex: 1,
+					    roam: true,
+					    emphasis: {
+						    label:{
+							    show:true
+						    }
+					    },
+					    itemStyle: {
+						    normal: {
+							    areaColor: {
+								    image: this.$refs.i, // 支持为 HTMLImageElement, HTMLCanvasElement，不支持路径字符串
+									    repeat: 'repeat' // 是否平铺，可以是 'repeat-x', 'repeat-y', 'no-repeat'
+							    },
+							    borderColor: "#263238",
+							    borderWidth: 2,
+
+							    label:{
+								    show:true
+							    }
+						    }
+					    }
+				    }
+			    ]
+		    };
+
+		    let img_bg = this.getImage('./c_bg.png').then(
+          ()=>{
+	          console.log(option)
+	          // // 设置scatter图片
+	          // // options.series[0].symbol = this.img[0]
+	          // // 使用刚指定的配置项和数据显示图表。
+	          myChart.setOption(option);
+          }
+        )
+      }
+    }
+  })
+</script>
+</body>
+</html>

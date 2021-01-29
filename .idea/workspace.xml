@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9eb0d9a-fc45-403e-8ff8-2aa50833181e" name="Default Changelist" comment="提交 v1.0.3">
+      <change afterPath="$PROJECT_DIR$/dist_burning_earth/d3-contour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_burning_earth/d3-geo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_burning_earth/d3-timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_burning_earth/data-1571295559348-whnsd6fi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_burning_earth/data-1571295640429-3Co5rpLX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_burning_earth/echarts-gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_burning_earth/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_burning_earth/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_burning_earth/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_geo_map/c_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_geo_map/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_geo_map/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_geo_map/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_geo_map/xuzhou_area.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/.idea/dist_v1.0.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/css/app.97136810.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/css/chunk-12c9065b.5b430f2e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/css/chunk-25593ed9.943de978.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/css/chunk-5953cd00.b9d7ec10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/css/chunk-7556eaf2.1de04073.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/css/chunk-d4dfb39a.2a2410e1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/css/chunk-vendors.f70a5bc6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/fonts/iconfont.570ee946.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/fonts/iconfont.6c345c05.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/fonts/iconfont.eff6d00c.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/bg.371f7ce3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/bg.a4ff6872.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/cube_bg.4fb20d8d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/earth.dfcc34ab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/iconfont.c836dfa9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/light-point.b3ed0276.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/md_bg.fa1a4838.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/mid.3ad9c7d0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/pic.32d6a271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/title.414cb83d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/title_bg.88fbaabd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/img/yuanquan.de3d0ba5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/js/app.93c65d9a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/js/chunk-12c9065b.07b02de4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/js/chunk-25593ed9.87340a1c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/js/chunk-2d0d2bc3.77c30138.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/js/chunk-2d0f011e.06af8a93.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/js/chunk-5953cd00.2a6c1873.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/js/chunk-7556eaf2.47f11f70.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/js/chunk-d4dfb39a.696286fe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.1/static/js/chunk-vendors.93aabf8e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/css/app.9dd4c620.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/css/chunk-38086877.86d0f17b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/css/chunk-50849d46.27c7cef7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/css/chunk-7f418177.310ac9d5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/css/chunk-dde158e6.4bef87f6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/css/chunk-f018b05c.560d6277.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/css/chunk-f6c4a0ba.9f51f945.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/css/chunk-vendors.ce6ecf94.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/fonts/iconfont.60093659.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/fonts/iconfont.920bd74b.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/fonts/iconfont.fefc82dc.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/bg.34001309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/earth.dfcc34ab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/icon_lhjc.2e6b5727.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/icon_sgs.99dedb3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/icon_sjcj.8b8fad9c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/icon_xtgk.633d6212.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/iconfont.3bb3f77b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/kuang.ac5bfcff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/top_bg.192f455a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/img/tuopan.951c8b20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/js/app.1718db09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/js/chunk-2d0d2bc3.728a1d8d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/js/chunk-38086877.131244ea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/js/chunk-50849d46.38b53e47.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/js/chunk-7f418177.43eb4a38.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/js/chunk-dde158e6.e1721e45.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/js/chunk-f018b05c.b1e40934.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/js/chunk-f6c4a0ba.7a1012fe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.2/static/js/chunk-vendors.7c012104.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/css/app.718f32d3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/css/chunk-077c2573.b3c991a1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/css/chunk-0d52db5c.149cf26c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/css/chunk-5caa5908.a95a25c7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/css/chunk-73abf5bf.22fa5daf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/css/chunk-vendors.37868dc4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/fonts/iconfont.3e9411cc.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/fonts/iconfont.a3576900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/fonts/iconfont.bc109170.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/img/iconfont.cac622fa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/img/light-point.b3ed0276.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/js/app.5f6ecfb5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/js/chunk-077c2573.1b1dfb40.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/js/chunk-0d52db5c.4999b3f7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/js/chunk-2d0d3e9e.dcc05af0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/js/chunk-5caa5908.6a813b44.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/js/chunk-73abf5bf.71809c0d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist_v1.0.3/static/js/chunk-vendors.feb13bf8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v1.0.3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/big-data-demo-dist.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
+    <option name="y" value="67" />
+    <option name="width" value="1825" />
+    <option name="height" value="1316" />
+  </component>
+  <component name="ProjectId" id="1njaOcTQRcj1Rq6yo3wvyRmFbeC" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="big-data-demo-dist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data-demo-dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data-demo-dist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data-demo-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="big-data-demo-dist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="big-data-demo-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9eb0d9a-fc45-403e-8ff8-2aa50833181e" name="Default Changelist" comment="" />
+      <created>1602750463143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602750463143</updated>
+      <workItem from="1602750464246" duration="1704000" />
+      <workItem from="1606115116945" duration="955000" />
+      <workItem from="1606179874206" duration="2099000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交 v1.0.1">
+      <created>1602750601300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602750601300</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交 v1.0.3">
+      <created>1606115189791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606115189791</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交 v1.0.3">
+      <created>1606183941104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606183941104</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交 v1.0.3">
+      <created>1606184330024</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606184330024</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4758000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="67" width="1825" height="1316" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24985835" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4997167" visible="true" weight="0.6349481" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4997167" weight="0.32958478" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002833" side_tool="true" visible="true" weight="0.6349481" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交 v1.0.1" />
+    <MESSAGE value="提交 v1.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交 v1.0.3" />
+  </component>
+</project>
