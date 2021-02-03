@@ -47,7 +47,7 @@
 			"features": [
 				{
 					"type": "Feature",
-					"properties": {'name': '区1'},
+					"properties": {'name': '淮海烈士纪念塔'},
 					"geometry": {
 						"type": "Polygon",
 						"coordinates": [
